@@ -38,8 +38,30 @@ Avançamos para a etapa de transformação dos dados, onde aplicamos algumas té
 
   
 Essas transformações são essenciais para garantir que os dados estejam em um formato adequado para os algoritmos de aprendizado de máquina.
----
+
 
 # Modelagem
+Nesta etapa, decidimos testar três modelos: **RandomForest**, **KNN** e **SVM**. Utilizamos **GridSearch** para treinar os modelos com vários parâmetros e identificamos os melhores parâmetros a serem utilizados para cada modelo.
 
-## Modelo
+## Modelo RandomForest
+O Random Forest é um algoritmo que combina múltiplas árvores de decisão em um ensemble, onde cada árvore é treinada com uma amostra aleatória dos dados e as predições são feitas através da votação ou média das previsões de todas as árvores. Isso ajuda a reduzir overfitting e aumenta a robustez do modelo.
+
+- Acurácia em Treinamento: 99.25%
+- Tempo de Treinamento do Modelo:  353.9s
+- Quantidade de treinamentos realizados:  324
+
+## Modelo SVM
+SVM, ou Support Vector Machine. Ele busca encontrar o hiperplano que melhor separa as classes no espaço de características, maximizando a margem entre as classes. O SVM é eficaz em espaços de alta dimensionalidade e pode lidar com conjuntos de dados complexos através do uso de funções de kernel para mapear os dados em espaços de características não lineares.
+
+- Acurácia em Treinamento: 98.94%
+- Tempo de Treinamento do Modelo:  100.31s
+- Quantidade de treinamentos realizados:  192
+  
+## Modelo KNN
+O KNN, ou k-Nearest Neighbors, é um algoritmo que classifica um ponto de dados com base na classe predominante entre seus vizinhos mais próximos em um espaço de características.
+
+- Acurácia em Treinamento: 97.08%
+- Tempo de Treinamento do Modelo:  24.82s
+- Quantidade de treinamentos realizados:  120
+  
+
