@@ -63,5 +63,11 @@ O KNN, ou k-Nearest Neighbors, é um algoritmo que classifica um ponto de dados 
 - Acurácia em Treinamento: 97.08%
 - Tempo de Treinamento do Modelo:  24.82s
 - Quantidade de treinamentos realizados:  120
-  
+
+---
+
+# Conclusão
+
+Concluímos em nossa análise e treinamento que o melhor modelo para identificar possíveis fraudes com esses tipos de dados é o **RandomForest**, com uma acurácia de 99.25%. Alcançamos nosso objetivo principal de desenvolver um modelo de machine learning capaz de identificar fraudes em empréstimos financeiros.
+
 
