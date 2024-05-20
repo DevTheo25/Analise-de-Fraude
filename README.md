@@ -3,7 +3,7 @@
 
 ## Introdução
 
-Este projeto tem como objetivo principal desenvolver um modelo de machine learning capaz de identificar fraudes em empréstimos financeiros. Utilizando técnicas de análise de dados e modelagem preditiva, buscamos detectar padrões que possam indicar atividades fraudulentas em empréstimos financeiros.
+Este projeto tem como objetivo principal desenvolver um modelo de machine learning capaz de prever fraudes em empréstimos financeiros. Utilizando técnicas de análise de dados e modelagem preditiva, buscamos detectar padrões que possam indicar atividades fraudulentas em empréstimos financeiros.
 
 ---
 # Análise Exploratória - Visão Geral
